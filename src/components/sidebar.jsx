@@ -28,7 +28,7 @@ const Sidebar = () => {
             ></path>
           </svg>
         </button>
-        <div className="p:4 sm:ml-64">
+        <div className="p:4 sm:ml-64 w-full ">
           <Header title={"Payments"} description={"How it works"} />
         </div>
       </div>
@@ -242,7 +242,7 @@ const Sidebar = () => {
       <div className="p-4 sm:ml-64">
         {/* <Header title={"Payments"} description={"How it works"} /> */}
 
-        <div className="grid sm:grid-cols-3 grid-cols-1">
+        <div className="grid md:grid-cols-2 grid-cols-1">
           <RevenueCard
             title={"AmountPending"}
             amount={"9,312"}

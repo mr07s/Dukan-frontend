@@ -2,8 +2,8 @@ import React from "react";
 
 const RevenueCard = ({ title, showWorning, orderCount, amount, count }) => {
   return (
-    <div className="bg-white rounded shadow-md p-3 ">
-      <div className="flex mb-3 items-center">
+    <div className="bg-white rounded shadow-md p-3 mr-2 mb-2">
+      <div className="flex mb-3 items-center ">
         <div className="text-gray-700 pr-3 ">{title}?</div>
         <div>
           <svg
@@ -23,7 +23,7 @@ const RevenueCard = ({ title, showWorning, orderCount, amount, count }) => {
         </div>
       </div>
       <div className="flex justify-between items-center">
-        <div className="font-bold text-2xl">₹{amount} </div>
+        <div className="font-bold xl:text-2xl">₹{amount} </div>
         {orderCount ? (
           <div className="flex font-bold text-blue-700 underline cursor-pointer">
             {count} order(s)

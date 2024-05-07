@@ -11,9 +11,9 @@ function App() {
 
   return (
     <>
-      <div className="p-4 sm:ml-64">
-        {/* <Header title={"Payments"} description={"How it works"} /> */}
-      </div>
+      {/* <div className="p-4 sm:ml-64"> */}
+      {/* <Header title={"Payments"} description={"How it works"} /> */}
+      {/* </div> */}
       <Sidebar />
       <div className="grid sm:grid-cols-3 grid-cols-1">
         {/* <RevenueCard
